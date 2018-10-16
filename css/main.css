@@ -18,12 +18,13 @@
   transition: all .5s ease-in;
 }
 
-#bear:hover  #left-ear,
-#bear:hover  #right-ear {
+#bear:hover #left-ear,
+#bear:hover #right-ear {
   transform: translateY(-10px);
 }
 
 @keyframes right-to-left {
+
   0% {
     transform: translateX(0);
   }
@@ -35,6 +36,7 @@
 }
 
 @keyframes right-ear {
+
   0% {
     transform: translateX(0);
   }
